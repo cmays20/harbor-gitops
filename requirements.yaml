@@ -1,4 +1,4 @@
 dependencies:
-- name: bitname/harbor
+- name: bitnami/harbor
   version: 7.1.1
   repository: https://charts.bitnami.com/bitnami
