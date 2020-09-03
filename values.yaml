@@ -1,11 +1,12 @@
 externalURL: https://harbor.cmays-lab.com
+ingress:
+  enabled: true
+  hosts:
+    core: harbor.cmays-lab.com
+    notary: harbor-notary.cmays-lab.com
 service:
   type: Ingress
   tls:
     enabled: true
     existingSecret: harbor-cert
     notaryExistingSecret: harbor-notary-secret
-  ingress:
-    hosts:
-      core: harbor.cmays-lab.com
-      notary: harbor-notary.cmays-lab.com
