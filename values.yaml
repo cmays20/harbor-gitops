@@ -10,4 +10,4 @@ harbor:
     tls:
       enabled: true
       existingSecret: harbor-cert
-      notaryExistingSecret: harbor-notary-secret
+      notaryExistingSecret: harbor-notary-cert
