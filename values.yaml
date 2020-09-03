@@ -5,7 +5,7 @@ ingress:
     core: harbor.cmays-lab.com
     notary: harbor-notary.cmays-lab.com
 service:
-  type: Ingress
+  type: ingress
   tls:
     enabled: true
     existingSecret: harbor-cert
