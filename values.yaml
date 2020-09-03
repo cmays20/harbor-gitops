@@ -1,4 +1,4 @@
-externalURL: https://harbor.cmays-lab.com
+externalURL: harbor.cmays-lab.com
 ingress:
   enabled: true
   hosts:
